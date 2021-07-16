@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="jquery/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <header class=" bg-info">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">JqueryUi</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ms-3">
+                                <a class="nav-link active" aria-current="page" href="index.html">page1</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="page2.html">Page 2</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="page3.html">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="my-4">
+        <div class="container">
+            <h1 class="text-center text-info">Accordion</h1>
+            <div id="accordion1">
+                <h3>Section 1</h3>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                </div>
+                <h3>Section 3</h3>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam
+                        nisi, eu iaculis leo purus venenatis dui. </p>
+                    <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                    </ul>
+                </div>
+                <h3>Section 4</h3>
+                <div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4">
+        <div class="container">
+            <h1 class="text-center text-info"></h1>
+            <div class="ui-widget">
+                <label for="tags">Favourite Programme: </label>
+                <input id="tags">
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4">
+        <div class="container">
+            <h1 class="text-center text-info">Datepicker</h1>
+            <p>Date: <input type="text" id="datepicker"></p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1 class="text-center text-info">Sortable</h1>
+            <ul id="sortable1" class="connectedSortable">
+                <li class="ui-state-default">Item 1</li>
+                <li class="ui-state-default">Item 2</li>
+                <li class="ui-state-default">Item 3</li>
+                <li class="ui-state-default">Item 4</li>
+                <li class="ui-state-default">Item 5</li>
+            </ul>
+
+            <ul id="sortable2" class="connectedSortable">
+                <li class="ui-state-highlight">Item 1</li>
+                <li class="ui-state-highlight">Item 2</li>
+                <li class="ui-state-highlight">Item 3</li>
+                <li class="ui-state-highlight">Item 4</li>
+                <li class="ui-state-highlight">Item 5</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="my-4">
+        <div class="container">
+            <h1 class="text-center text-info">Menu</h1>
+            <ul id="menu">
+                <li>
+                    <div><span class="ui-icon ui-icon-disk"></span>Save</div>
+                </li>
+                <li>
+                    <div><span class="ui-icon ui-icon-zoomin"></span>Zoom In</div>
+                </li>
+                <li>
+                    <div><span class="ui-icon ui-icon-zoomout"></span>Zoom Out</div>
+                </li>
+                <li class="ui-state-disabled">
+                    <div><span class="ui-icon ui-icon-print"></span>Print...</div>
+                </li>
+                <li>
+                    <div>Playback</div>
+                    <ul>
+                        <li>
+                            <div><span class="ui-icon ui-icon-seek-start"></span>Prev</div>
+                        </li>
+                        <li>
+                            <div><span class="ui-icon ui-icon-stop"></span>Stop</div>
+                        </li>
+                        <li>
+                            <div><span class="ui-icon ui-icon-play"></span>Play</div>
+                        </li>
+                        <li>
+                            <div><span class="ui-icon ui-icon-seek-end"></span>Next</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>Learn more about this menu</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- JS links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page2.js"></script>
+
+</body>
+
+</html>

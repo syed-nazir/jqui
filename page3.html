@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="jquery/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/page3.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <header class=" bg-info">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">JqueryUi</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ms-3">
+                                <a class="nav-link active" aria-current="page" href="index.html">page1</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="page2.html">Page 2</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link" href="page3.html">Page 3</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center text-info">Progressbar</h1>
+            <div id="dialog" title="File Download">
+                <div class="progress-label">Starting download...</div>
+                <div id="progressbar"></div>
+            </div>
+            <button id="downloadButton">Start Download</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center text-info">Selectmenu</h1>
+            <div class="demo">
+
+                <form action="#">
+
+                    <div id="circle"></div>
+
+                    <fieldset>
+                        <label for="radius">Circle radius</label>
+                        <select name="radius" id="radius">
+                <option value="50">50px</option>
+                <option value="100">100px</option>
+                <option value="150" selected="selected">150px</option>
+                <option value="200">200px</option>
+                <option value="250">250px</option>
+              </select>
+
+                        <label for="color">Circle color</label>
+                        <select name="color" id="color">
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="yellow" selected="selected">Yellow</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+                    </fieldset>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center text-info">Colorpicker Slider</h1>
+            <p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+                <span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span> Simple Colorpicker
+            </p>
+
+            <div id="red"></div>
+            <div id="green"></div>
+            <div id="blue"></div>
+
+            <div id="swatch" class="ui-widget-content ui-corner-all"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center text-info">Toggle Efect</h1>
+            <div class="toggler">
+                <div id="effect" class="ui-widget-content ui-corner-all">
+                    <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
+                    <p>
+                        Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                    </p>
+                </div>
+            </div>
+
+            <select name="effects" id="effectTypes">
+          <option value="blind">Blind</option>
+          <option value="bounce">Bounce</option>
+          <option value="clip">Clip</option>
+          <option value="drop">Drop</option>
+          <option value="explode">Explode</option>
+          <option value="fade">Fade</option>
+          <option value="fold">Fold</option>
+          <option value="highlight">Highlight</option>
+          <option value="puff">Puff</option>
+          <option value="pulsate">Pulsate</option>
+          <option value="scale">Scale</option>
+          <option value="shake">Shake</option>
+          <option value="size">Size</option>
+          <option value="slide">Slide</option>
+        </select>
+
+            <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-center text-info">Tooltip</h1>
+            <p>There are various ways to customize the animation of a tooltip.</p>
+            <p>You can use the <a id="show-option" href="http://jqueryui.com/demos/tooltip/#option-show" title="slide down on show">show</a> and
+                <a id="hide-option" href="http://jqueryui.com/demos/tooltip/#option-hide" title="explode on hide">hide</a> options.</p>
+            <p>You can also use the <a id="open-event" href="http://jqueryui.com/demos/tooltip/#event-open" title="move down on show">open event</a>.</p>
+        </div>
+    </section>
+
+    <!-- JS links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/page3.js"></script>
+
+</body>
+
+</html>

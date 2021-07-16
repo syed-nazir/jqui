@@ -1,0 +1,80 @@
+fieldset {
+    border: 0;
+    margin-left: 300px;
+}
+
+label {
+    display: block;
+    margin: 20px 0 0 0;
+}
+
+#circle {
+    float: left;
+    background: #ff5100;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#red,
+#green,
+#blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+}
+
+#swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+}
+
+#red .ui-slider-range {
+    background: #b4ef29;
+}
+
+#red .ui-slider-handle {
+    border-color: #b4ef29;
+}
+
+#green .ui-slider-range {
+    background: #346be2;
+}
+
+#green .ui-slider-handle {
+    border-color: #346be2;
+}
+
+#blue .ui-slider-range {
+    background: #cf72a5;
+}
+
+#blue .ui-slider-handle {
+    border-color: #cf72a5;
+}
+
+.toggler {
+    width: 500px;
+    height: 200px;
+}
+
+#button {
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+#effect {
+    position: relative;
+    width: 240px;
+    height: 190px;
+    padding: 0.4em;
+}
+
+#effect h3 {
+    margin: 0;
+    padding: 0.6em;
+}
